@@ -4,9 +4,9 @@ class Config(object):
     
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5909685271:AAGrx4Ghfrwvw_J9DH2WS2nXLjAjLF6BrTM")
     
-    API_ID = int(os.environ.get("API_ID", ""))
+    API_ID = int(os.environ.get("API_ID", "23990433"))
     
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = os.environ.get("API_HASH","e6c4b6ee1933711bc4da9d7d17e1eb20")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     
@@ -24,7 +24,7 @@ class Config(object):
     
     PROCESS_MAX_TIMEOUT = 3600
     
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "5821871362"))
 
     SESSION_NAME = "UploadLinkToFileBot"
     
